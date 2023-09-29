@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c0959f9251.js" crossorigin="anonymous"></script>
+    <title>Mi primera web</title>
+</head>
+
+<body>
+    <header class="menu-container">
+        <h1 class="logo">Logo</h1>
+        <nav class="navbar">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#works">Trabajos</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <section id="about">
+
+            <img src="img/Lu.jpg" alt="Foto de perfil" height="200" width="200" />
+            <br>
+            <div class="texto">
+                <h2 class="fuente-acento-oscuro"> Acerca de mi:</h2>
+                <br>
+                <br>
+                <p class="fuente-oscura">
+                <p id="parrafo"> "Me llamo Lourdes, soy de Tucuman - Argentina.<br>
+                    Actualmente trabajo en un ContactCenter, en el area de Atencion al Cliente.<br>
+                    Me gustaria dedicarme completamente a la programacion, para un mejor futuro.<br>
+                </p>
+                </p><br>
+            </div>
+            <img src="img/Lulu.jpg" alt="Foto de perfil" height="200" width="200" />
+            <br>
+
+        </section>
+        <div class="banner">
+            <img src="img/banner.jpg" height="510">
+        </div>
+
+
+        <section id="works">
+            <h2 class="fuente-acento-oscuro">Trabajos:</h2>
+            <br>
+            <!-- Proyecto 1: Página de Crochet -->
+            <article class="proyecto">
+                <img src="img/princesas.jpg" alt="Crochet" height="100" width="100">
+                <p class="fuente-oscura">Pagina de Crochet <br><br>
+                    Sitio Web donde se visualiza las diferentes tecnicas de tejido y acceso de tutoriales</p>
+            </article>
+
+            <!-- Proyecto 2: Sistema Unicorn -->
+            <article class="proyecto">
+                <img src="img/Unicorm.png" alt="Manual Usuario Unicorm" height="100" width="100">
+                <p class="fuente-oscura">Unicorn Registro de Articulos y Ventas <br><br>
+                    Sistema que permite el registro de ventas y de inventario disponible</p>
+            </article>
+
+            <!-- Proyecto 3: Sistema Elli -->
+            <article class="proyecto">
+                <img src="img/ELLI.png" alt="Elli" height="100" width="100">
+                <p class="fuente-oscura">Pagina Elli Gestor Educativo <br><br>
+                    Sitio Web educativa que permite a alumnos conocer su estado academico</p>
+            </article>
+        </section>
+
+        <section id="services">
+            <h2 class="fuente-acento-oscuro"> Servicios:</h2>
+            <br>
+
+        </section>
+
+    </main>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Redes Sociales -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/lourdes-lafuente-546a7420b/"><i
+                                        class="fa-brands fa-linkedin fa-bounce"></i> Linkedin</a></li>
+                            <li><a href="https://www.instagram.com/lafuentelourdes/"><i
+                                        class="fa-brands fa-instagram fa-bounce"></i>
+                                    Instagram</a></li>
+                            <li><a href="https://wa.me/5493813265295"><i class="fa-brands fa-whatsapp fa-bounce"></i>
+                                    WhatsApp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <br>
+        <p class="fuente-clara"> Creado por Lourdes Lafuente</p>
+    </footer>
+    <link rel="stylesheet" href="style.css">
+</body>
+
+</html>
